@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Aula mais aprofundada sobre Formularios-->
+<html>
+    <head>
+        <title>Minha Decima Segunda Aula</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h2>Login</h2>
+        <form>
+            Login:<br>
+            <input type="text" name="Login"><br> <!-- O name e usado para passar os dados para uma proxima tela, para recuperar os dados em uma proxima tela com uma linguagem de programação-->
+            <!-- Entrada de Dados-->
+            Senha:<br>
+
+            <input type="password" name="Senha"><br>
+
+            <input type="submit" value="Logar"><br>
+        </form>
+
+        <h2> Cadastre-se</h2>
+       <form action="">
+            Login:<br>
+            <input type="text" name="Cadastro"><br>
+
+            Sexo:<br>
+            <input type="radio" name="Sexo" value="M"> Masculino<br> <!-- o Type (radio) nos possibilitam criar mutiplas escolhas para um determinado assunto, mas so potendo da uma unica resposta, como no exemplo do sexo Masculino ou femenino so podendo escolher uma das alternativas-->
+            <input type="radio" name="Sexo" value="F"> Feminino<br>
+            <br>
+
+            Interesses<br>
+            <input type="checkbox" name="Interesses" value="Futeboll"> Futeboll
+
+            <input type="checkbox" name="Interesses" value="Curos"> Cursos
+
+            <input type="checkbox" name="Interesses" value="Moda"> Moda
+            <br>
+
+            <br>Estado<br>
+            <select name="Estado" > <!-- a tag select nos da a possibilidade de criar uma caixinha onde contendo varias informaões como por exemplo o estado onde você mora, ali você vai encontrar varios estados, mas você so pode escolher uma opção que e onde você mora que é por exemplo em Santa catarina-->
+                <option value="SP"> SP</option>
+                <option value="SC"> SC</option>
+                <option value="RJ"> RJ</option>
+                <option value="MG"> MG</option>
+            </select>
+            <br>
+
+            <br>Observações<br> <!-- Texrarea e uma tag(comando) do html que cria uma area para se colocar texto, por exemplo digamos que você tem uma loja e quer saber se os clientes estão gostando do espaço, o textarea serveria para criar essa cominicação onde o cliente colocaria o que acha do espaço da loja na caixa que o textarea criou, onde você receberia o que os seus clientes acham.-->
+
+            <textarea></textarea>
+
+
+           <br> <input type="submit" Value="Enviar"> <!-- type submit e uma tag de butão no input que envia o que você colocou no site para a barra de navegação ou para uma outra tela de site ou para um banco de dados-->
+        </form>
+        
+    </body>
+
+</html>
